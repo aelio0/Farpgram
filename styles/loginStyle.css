@@ -1,0 +1,51 @@
+html{
+  background-color: rgb(20, 20, 20);
+  overflow: hidden;
+}
+
+.container{
+  padding-left: 0px;
+}
+
+#input{
+  margin: 0px !important;
+  min-width: 260px;
+  max-width: 320px;
+  border-radius: 20px;
+  border-color: rgb(20, 20, 20) !important;
+  background-color: rgb(34, 34, 34) !important;
+}
+
+#logo{
+  margin: 0px !important;
+}
+
+#img{
+  max-width: 300px;
+}
+
+.form-control{
+  background-color: rgb(34, 34, 34) !important;
+}
+
+a{
+  color: purple;
+}
+
+.btn-outline-primary{
+    --bs-btn-color: purple !important;
+    --bs-btn-border-color: purple !important;
+    --bs-btn-hover-bg: purple !important;
+    --bs-btn-hover-border-color: purple !important;
+    --bs-btn-active-bg: purple !important;
+    --bs-btn-active-border-color: purple !important;
+    --bs-btn-disabled-color: purple !important;
+    --bs-btn-disabled-border-color: purple !important;
+}
+
+@media (max-width: 530px){
+  
+  .container{
+    margin-left: 20%;
+  } 
+}

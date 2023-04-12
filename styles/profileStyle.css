@@ -1,0 +1,200 @@
+.profile-img{
+    max-width: 200px !important;
+    min-width: 200px !important;
+    margin-bottom: 5%;
+}
+
+.post{
+    position: relative;
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    margin-left: 12%;
+}
+
+.post:hover{
+    width: 15.5rem;
+    height: 15.5rem;
+    transition: all 0.7s;
+}
+
+/* Stats */
+
+#post, #follower, #following{
+    font-size: 20px;
+}
+
+.stats .col-2{
+    margin: 0px 7%;
+}
+
+.name{
+    font-size: 22px;
+}
+    
+
+.border-b{
+    border-bottom: solid;
+    border-color: rgb(0, 0, 0);
+    margin-right: 3% !important;
+    margin-left: 3% !important;
+}
+
+.of{
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+form textarea{
+    border-radius: 10px;
+    border-color: rgb(206, 206, 206);
+}
+
+.btn-outline-primary{
+    --bs-btn-color: purple !important;
+    --bs-btn-border-color: purple !important;
+    --bs-btn-hover-bg: purple !important;
+    --bs-btn-hover-border-color: purple !important;
+    --bs-btn-active-bg: purple !important;
+    --bs-btn-active-border-color: purple !important;
+    --bs-btn-disabled-color: purple !important;
+    --bs-btn-disabled-border-color: purple !important;
+}
+
+.btn-primary{
+    --bs-btn-bg: purple !important;
+    --bs-btn-border-color: purple !important;
+    --bs-btn-hover-bg: purple !important;
+    --bs-btn-hover-border-color: purple !important;
+    --bs-btn-active-bg: purple !important;
+    --bs-btn-active-border-color: purple !important;
+    --bs-btn-disabled-bg: purple !important;
+    --bs-btn-disabled-border-color: purple !important;
+}
+
+.btn-media{
+    opacity: 0;
+}
+
+@media (max-width: 1400px) {
+
+    .post{
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 1260px) {
+
+    .post{
+        width: 20rem;
+        height: 20rem;
+        margin-left: 12%;
+    }
+    
+    .post:hover{
+        width: 20.5rem;
+        height: 20.5rem;
+        transition: all 0.7s;
+    }
+}
+
+@media (max-width: 1050px) {
+
+    .post{
+        width: 15rem;
+        height: 15rem;
+        margin-left: 12%;
+    }
+    
+    .post:hover{
+        width: 15.5rem;
+        height: 15.5rem;
+        transition: all 0.7s;
+    }
+}
+
+@media (max-width: 850px) {
+
+    .post{
+        width: 13rem;
+        height: 13rem;
+        margin-left: 12%;
+    }
+    
+    .post:hover{
+        width: 13.5rem;
+        height: 13.5rem;
+        transition: all 0.7s;
+    }
+}
+
+@media (max-width: 760px) {
+
+    div.space{
+        display: none;
+    }
+
+    div.border-b div.col-5{
+        margin-left: 10%
+    }
+
+    #post, #follower, #following{
+        font-size: 16px;
+        margin-right: 10px;
+    }
+    
+    .stats .col-2{
+        margin: 0px 5%;
+    }
+
+}
+
+
+@media (max-width: 680px) {
+
+    .post{
+        width: 25rem;
+        height: 25rem;
+        margin-left: 12%;
+    }
+    
+    .post:hover{
+        width: 25.5rem;
+        height: 25.5rem;
+        transition: all 0.7s;
+    }
+
+    #bio{
+        display: none;
+    }
+
+    .profile-img{
+        max-width: 130px !important;
+        min-width: 130px !important;
+        align-items: center;
+    }
+
+    .btn-media{
+        opacity: 1;
+        margin-left: 20px;
+    }
+
+    .col-5 #btnModProfile{
+        display: none;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .post{
+        width: 22rem;
+        height: 22rem;
+        margin-left: 7%;
+    }
+
+    .post:hover{
+        width: 22.5rem;
+        height: 22.5rem;
+        transition: all 0.7s;
+    }
+}
